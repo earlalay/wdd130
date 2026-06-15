@@ -1,0 +1,7 @@
+body {
+    background-color: lightblue;
+}
+
+/* body is the selector, where it is applying */
+/* background-color is the property and lightblue is the value */
+/* has to end with a ; or it won't work */

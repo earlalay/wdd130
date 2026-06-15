@@ -1,0 +1,49 @@
+<!-- This is teaching the very basics of how html works -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <!-- This is an HtML comment. Ctrl / is the shortcut for this. --> 
+        <!-- Anything in the head is NOT visible on the page. -->
+         <title>Dinosaurs!</title>
+         <style>
+          @import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+          /* This is a Css comment. The syntax in the document changes to
+           Css here because we are inside the style tags. */
+            body {
+              background-color: #F0FFFF;
+            }
+            h1 {
+              color: #8806CE;
+              /* font-family: 'Courier New', Courier, monospace; */
+              /* The two things after courier new above are fall backs for the computer if courier new isn't on your computer */
+              font-family: Cantarell;
+              /* when it comes to saying the name of the font, if it's more than
+              one word, it needs to be in '' */
+            }
+            p {
+              color: #8806CE;
+              /* with CSS, the first thing is the property and the second part is the value */
+              font-family: 'Cantarell'
+            }
+         </style>
+    </head>
+    <body>
+        <!-- Anything in the body IS visible on the page -->
+         <h1>Different Kinds of Dinosaurs</h1>
+         <!-- only h1 through h6 for headings/headers -->
+          <p>Different kinds of dinosaurs ate different things. 
+            Some only ate plants, some only ate meat, and some ate both!
+          </p>
+          <p>Dinosaurs that only ate plants are called herbivores. 
+            The ones that only ate meat are called carnivores. 
+            And the ones that ate both are called omnivores.</p>
+          <p>A famous group of herbivores are the sauropods! They're the 
+            ones with long necks and tails. A famous group of carnivores 
+            are the theropods, like T-Rex!</p>
+          <!-- If your paragraph (p) is really long, you can just hit 
+           enter to wrap it around and it doesn't affect the 
+           code/format, like in this comment -->
+    </body>
+</html>

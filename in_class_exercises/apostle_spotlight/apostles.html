@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        /* Insert styles here */
+        body {
+            background-color: #E8ECED;
+        }
+
+        div {
+            border: 6px solid black;
+            border-radius: 50px;
+            margin: 2em;
+            background-color: #5454c3;
+            display: grid;
+            grid-template-columns: 2fr 1.5fr 1fr 1fr 1.5fr 2fr;
+            grid-template-rows: 75px 200px 50px 150px 150px 150px 150px;
+        }
+
+        h1, h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            grid-column: 1/7;
+            grid-row: 1/2;
+        }
+
+        h2 {
+            grid-column: 1/7;
+            grid-row: 3/4;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            object-position: top;
+            border: 6px solid white;
+            border-radius: 50%;
+        }
+
+        img:hover {
+            border-color: purple
+        }
+
+        .counselor {
+            width: 175px;
+            height: 175px;
+            grid-row: 2/3;
+            align-self: center;
+        }
+
+        #president {
+            width: 200px;
+            height: 200px;
+            grid-column: 3/5;
+            grid-row: 2/3;
+            justify-self: center;
+        }
+
+        #eyring {
+            grid-column: 2/3;
+        }
+
+        #christofferson {
+            grid-column: 5/6;
+        }
+
+        .row_1 {
+            grid-row: 4/5;
+        }
+
+        .row_2 {
+            grid-row: 5/6;
+        }
+
+        .row_3 {
+            grid-row: 6/7;
+        }
+
+        #uchtdorf, #rasband, #soares {
+            grid-column: 2/3;
+        }
+
+        #bednar, #stevenson, #kearon {
+            grid-column: 3/4;
+        }
+
+        #cook, #renlund, #causse {
+            grid-column: 4/5;
+        }
+
+        #anderson, #gong, #gilbert {
+            grid-column: 5/6;
+            justify-self: right;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Insert HTML elements here -->
+     <div>
+        <h1>First Presidency</h1>
+        <img class="counselor" id="eyring" src="images/eyring.webp" alt="President Eyring">
+        <img id="president" src="images/oaks.webp" alt="President Oaks">
+        <img class="counselor" id="christofferson" src="images/christofferson.webp" alt="President Christofferson">
+        <h2>Quorum of the Twelve Apostles</h2>
+        <img class="row_1" class="column_1" id="uchtdorf" src="images/uchtdorf.webp" alt="President Uchtdorf">
+        <img class="row_1" class="column_2" id="bednar" src="images/bednar.webp" alt="President Bednar">
+        <img class="row_1" class="column_3" id="cook" src="images/cook.webp" alt="President Cook">
+        <img class="row_1" class="column_4" id="anderson" src="images/anderson.webp" alt="President Anderson">
+        <img class="row_2" class="column_1" id="rasband" src="images/rasband.webp" alt="President Rasband">
+        <img class="row_2" class="column_2" id="stevenson" src="images/stevenson.webp" alt="President Stevenson">
+        <img class="row_2" class="column_3" id="renlund" src="images/renlund.webp" alt="President Renlund">
+        <img class="row_2" class="column_4" id="gong" src="images/gong.webp" alt="President Gong">
+        <img class="row_3" class="column_1" id="soares" src="images/soares.webp" alt="President Soares">
+        <img class="row_3" class="column_2" id="kearon" src="images/kearon.webp" alt="President Kearon">
+        <img class="row_3" class="column_3" id="causse" src="images/causse.webp" alt="President Causse">
+        <img class="row_3" class="column_4" id="gilbert" src="images/gilbert.webp" alt="President Gilbert">
+     </div>
+</body>
+</html>
